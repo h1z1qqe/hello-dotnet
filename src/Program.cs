@@ -14,6 +14,7 @@ Console.WriteLine($"OS: {RuntimeInformation.OSDescription}");
 Console.WriteLine($"Arch: {RuntimeInformation.OSArchitecture}");
 Console.WriteLine(Greeting.Greet("GitHub"));
 Console.WriteLine($"Sum 1..10 = {Greeting.SumRange(1, 10)}");
+Console.WriteLine($"Fib(20) = {Greeting.Fibonacci(20)}");
 
 if (args.Length > 0)
 {
